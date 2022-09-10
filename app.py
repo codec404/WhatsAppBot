@@ -30,9 +30,9 @@ def sms_reply():
     else:
         reply = """
             Please enter a valid command:
-            Example:
-            1.create 01-Jan-65 00:00AM 01-Jan-65 07:00AM Event_Name
-            2.list 5
+        Example:
+        1.create 01-Jan-65 00:00AM 01-Jan-65 07:00AM Event_Name
+        2.list 5
         """
     resp = MessagingResponse()
     resp.message(reply)
