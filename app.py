@@ -5,8 +5,8 @@ from get import get_evnt
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-    return "Hello World"
+def serverOnmsg():
+    return "Server is on !!!"
 
 @app.route('/sms',methods=['POST'])
 def sms_reply():
